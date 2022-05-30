@@ -18,7 +18,7 @@
                     <p class="p-2"><b>Genre: </b>{{ $movie->genre }}</p>
                     <p class="p-2"><b>Director: </b>{{ $movie->director }}</p>
                     <p class="p-2"><b>Release year: </b>{{ $movie->year }}</p>
-                </div>
+                </div>      
                 <div class="card-footer bg-success" style="color: #fff;">
                     <p class="p-2"><b>Storyline: </b>{{ $movie->storyline }}</p>
                 </div>
