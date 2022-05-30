@@ -3,6 +3,7 @@
 @section("title", "Movies")
 
 @section("content")
+@include('partials.navbar')
 <h1>Movies</h1>
 
 <div class="col-10 offset-1">

@@ -3,6 +3,7 @@
 @section("title", "Movies")
 
 @section("content")
+@include('partials.navbar')
 <h1>{{ $movie->title }}</h1>
 
 <div class="container">
